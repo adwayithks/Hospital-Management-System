@@ -2,8 +2,9 @@
 #include <iomanip>
 #include <ctime>
 #include "login.h"
-#include "doctor.h"
+#include "doctor-new.h"
 #include "office.h"
+#include "lab.h"
 using namespace std;
 
 int main()
@@ -18,10 +19,10 @@ int main()
     string date = ss.str();
 
     Login login;
-    Doctor doctor(date);
     Office office;
+    Doctor doctor(date);
+    Lab lab(date);
 
-// system("clear");
     int ret{};
     while(1)
     {
@@ -31,21 +32,23 @@ int main()
             case 1:
                 ret = doctor.doctorOpFn(date);
                 if(ret == 3) login.changePassword("doctor");
-                cout<<"logout successful\n";
+                cout<<"logout successful";
                 break;
 
             case 2:
-                cout<<"welcome pharmacist";
+                ret = lab.labFn(date);
+                if(ret == 3) login.changePassword("lab");
+                cout<<"logout successful";
                 break;
 
             case 3:
                 ret = office.officeFn(date);
                 if(ret == 2) login.changePassword("office");
-                cout<<"logout successful\n";
+                cout<<"logout successful";
                 break;
                 
             default: 
-                cout<<"\nlogin unsuccessful\n";
+                cout<<"\nlogin unsuccessful";
                 break;
         }
     }

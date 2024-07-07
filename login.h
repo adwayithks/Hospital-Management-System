@@ -35,16 +35,16 @@ class Login
         {
         
         //creating login folder  
-            if(!is_directory("login")) system("mkdir login");
+            if(!is_directory(".login")) system("mkdir .login");
 
         // Iniatialising doctor's password file
-            ifstream inf{"./login/doctor"};
+            ifstream inf{"./.login/.doctor"};
 
             if (!inf)
             {
                 doctor.username = "doctor";
                 doctor.password = hasher("nurse");
-                fileInitialiser("doctor",doctor.password,"./login/doctor");
+                fileInitialiser("doctor",doctor.password,"./.login/.doctor");
             }
             else
             {
@@ -54,12 +54,12 @@ class Login
             inf.close();
 
             // Iniatialising lab's password file
-            inf.open("./login/lab");
+            inf.open("./.login/.lab");
             if (!inf)
             {
                 lab.username = "lab";
                 lab.password = hasher("testing");
-                fileInitialiser("lab",lab.password,"./login/lab");
+                fileInitialiser("lab",lab.password,"./.login/.lab");
             }
             else
             {
@@ -69,12 +69,12 @@ class Login
             inf.close();
 
             // Iniatialising office's password file
-            inf.open("./login/office");
+            inf.open("./.login/.office");
             if (!inf)
             {
                 office.username = "office";
                 office.password = hasher("computer");
-                fileInitialiser("office",office.password,"./login/office");
+                fileInitialiser("office",office.password,"./.login/.office");
             }
             else
             {
@@ -109,7 +109,7 @@ class Login
                 }
             }
             system("stty echo");
-            cout<<"login again\n";
+            cout<<"login again\t";
             return oldPassword;
         }
 
@@ -122,8 +122,9 @@ class Login
 
         int loginManager()
         {
+            system("clear");
             cred temp;
-            cout<<"\nenter username : ";
+            cout<<"\n\nenter username : ";
             cin>>temp.username;
             if(temp.username == doctor.username)
             {
@@ -165,10 +166,10 @@ class Login
                 system("stty -echo");
                 cin>>temp.password;
                 if(hasher(temp.password) == doctor.password) 
-                    doctor.password = newPassword("doctor",doctor.password,"./login/doctor");
+                    doctor.password = newPassword("doctor",doctor.password,"./.login/.doctor");
                 else
                 {
-                    cout<<"wrong password\n";
+                    cout<<"wrong password\t\t";
                     system("stty echo");
                     return;
                 }
@@ -179,10 +180,10 @@ class Login
                 system("stty -echo");
                 cin>>temp.password;
                 if(hasher(temp.password) == lab.password) 
-                    lab.password = newPassword("lab",lab.password,"./login/lab");
+                    lab.password = newPassword("lab",lab.password,"./.login/.lab");
                 else
                 {
-                    cout<<"wrong password\n";
+                    cout<<"wrong password\t\t";
                     system("stty echo");
                     return;
                 }
@@ -193,10 +194,10 @@ class Login
                 system("stty -echo");
                 cin>>temp.password;
                 if(hasher(temp.password) == office.password)
-                    office.password = newPassword("office",office.password,"./login/office");
+                    office.password = newPassword("office",office.password,"./.login/.office");
                 else
                 {
-                    cout<<"wrong password\n";
+                    cout<<"wrong password\t\t";
                     system("stty echo");
                     return;
                 }
