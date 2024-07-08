@@ -1,9 +1,13 @@
 # HOSPITAL MANAGEMENT SYSTEM
 
+---
+
 ## Table of Contents
 - [Why this Project](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#why-this-project)
 - [Prerequisites](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#prerequisites)
 - [How to Install an run the Project](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#how-to-install-and-run-the-project)
+
+---
 
 ### Why this project
  This is a project which can be deployed in hospitals for managing things like :-
