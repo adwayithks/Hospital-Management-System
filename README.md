@@ -1,11 +1,13 @@
 # HOSPITAL MANAGEMENT SYSTEM
 
 ## Table of Contents
+
 - [Why this Project](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#why-this-project)
 - [Prerequisites](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#prerequisites)
 - [How to Install an run the Project](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#how-to-install-and-run-the-project)
 - [How to use the Software](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#how-to-use-the-software)
-- [How to use the Software](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#how-to-use-the-software)
+- [Directory Structure](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#directory-structure-used-in-the-program-(Incase-you-want-to-know-how-the-filesystem-is-organised))
+- [Licensing](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#licensing)
   
 
 ---
@@ -106,7 +108,15 @@
 
 ### Directory Structure used in the program (Incase you want to know how the filesystem is organised)
 
+
 ![image](https://github.com/adwayithks/hospital_management_project/assets/132866560/2018f4ee-8a0e-4abf-8a82-38a9071ed7bc)
+
+
+---
+
+### Licensing
+
+This project is licensed under the GNU General Public License version 2.0 (GPL-2.0). For more information, please refer to the full license details in the LICENSE file.
 
 
          
