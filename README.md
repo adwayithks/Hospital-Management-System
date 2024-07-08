@@ -6,7 +6,7 @@
 - [Prerequisites](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#prerequisites)
 - [How to Install an run the Project](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#how-to-install-and-run-the-project)
 - [How to use the Software](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#how-to-use-the-software)
-- [Directory Structure](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#directory-structure-used-in-the-program-(Incase-you-want-to-know-how-the-filesystem-is-organised))
+- [Directory Structure](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#directory-structure-used-in-the-program-incase-you-want-to-know-how-the-filesystem-is-organised)
 - [Licensing](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#licensing)
   
 
