@@ -110,6 +110,8 @@
 
 
 ![image](https://github.com/adwayithks/hospital_management_project/assets/132866560/2018f4ee-8a0e-4abf-8a82-38a9071ed7bc)
+![Untitled Diagram drawio](https://github.com/adwayithks/hospital_management_project/assets/132866560/3544b38c-ed7e-4e08-a86f-b615a10be3e8)
+
 
 
 ---
@@ -117,6 +119,8 @@
 ### Licensing
 
 This project is licensed under the GNU General Public License version 2.0 (GPL-2.0). For more information, please refer to the full license details in the LICENSE file.
+
+---
 
 
          
