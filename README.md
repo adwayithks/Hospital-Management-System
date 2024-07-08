@@ -1,7 +1,7 @@
 # HOSPITAL MANAGEMENT SYSTEM
 
 ## Table of Contents
-- Why this Project 
+#### - [Why this Project](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#why-this-project)
 ### Why this project?
  This is a project which can be deployed in hospitals for managing things like :-
  1) Creating tokens
