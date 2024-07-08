@@ -66,7 +66,7 @@
 
   7) Now let's look at the next agent say the doctor in detail :
      - This is how the menu of doctor looks :-
-     - 
+     
        ![image](https://github.com/adwayithks/hospital_management_project/assets/132866560/2924a25e-c0ac-457f-8a7e-5a55288c3df7)
 
        - The doctor can see the list of first few token holders directly in his view.
