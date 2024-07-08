@@ -33,7 +33,7 @@ class Office
                 if(temp == 'y')
                 {
                     string pid;
-                    cout<<"enter patient id : ";
+                    cout<<"\nenter patient id : ";
                     cin>>pid;
 
                     if(!is_directory("./patient/"+pid))

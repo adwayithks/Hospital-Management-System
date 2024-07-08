@@ -120,8 +120,7 @@ class Lab
                     cout<<endl<<"What is the pid of the patient : ";
                     string pid1{};
                     getline(cin,pid1);
-                    cout<<pid1;
-                    cout<<endl<<"What test should be performed on the patient : ";
+                    cout<<endl<<"\nWhat test should be performed on the patient : ";
                     string test{};
                     getline(cin,test);
                     string location = "./patient/"+pid1+"/details";
@@ -157,7 +156,7 @@ class Lab
                     int position{};
                     cin>>position;
 
-                    if(position<=lab_q.size())
+                    if(position<=lab_q.size() && position<=5 && position>=1)
                     {
                         ofstream writeout{"./queue/doctor_queue/.doc_temp_q",ios::app};
                         writeout<<lab_q[position-1]<<endl;
