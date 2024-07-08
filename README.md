@@ -45,6 +45,7 @@
  
  3) Btw while you type the password it won't show in the terminal. 
  4) The password for any agent can be changed by the agent by the agent itself after logging in.
+------------------------------------------------------------------------------------------------------
  5) Now let's look at the first agent say office in detail :
     - The office clerk can do the following :-
       - Create the details file of the patient
@@ -54,4 +55,9 @@
  This is how the menu of an office assistant looks :- 
  
  ![image](https://github.com/adwayithks/hospital_management_project/assets/132866560/e464f348-3929-4ef6-90b3-e8adc0e01464)
+
+  6) It will ask us if the patient has a pid
+     - If yes we can just enter the patient id.
+     - Else we can say no, and it will ask us about some patient details, we can enter them and then it will give us a patient id, and also generate a token for the patient.
+  7)
 
