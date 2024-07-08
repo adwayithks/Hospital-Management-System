@@ -4,6 +4,8 @@
 - [Why this Project](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#why-this-project)
 - [Prerequisites](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#prerequisites)
 - [How to Install an run the Project](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#how-to-install-and-run-the-project)
+- [How to use the Software](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#how-to-use-the-software)
+  
 
 ---
 
@@ -33,3 +35,23 @@
  2) Or you can clone this repo and compile the file named "hospital_management.cpp" and run the executable.
 
 ---
+
+### How to use the software
+ 1) This software has 3 acting agents namely , the doctor, the office, the lab-assistant.
+ 2) When you run the software, It will ask for login, the default logins are as follows :
+    - Doctor :- username : doctor , password : nurse
+    - Office :- username : office , password : computer
+    - Lab    :- username : lab    , password : testing
+ 
+ 3) Btw while you type the password it won't show in the terminal. 
+ 4) The password for any agent can be changed by the agent by the agent itself after logging in.
+ 5) Now let's look at the first agent say office in detail :
+    - The office clerk can do the following :-
+      - Create the details file of the patient
+      - Create a patient id (pid) to a new patient visiting the hospital.
+      - Add the patient to the doctor's queue.
+ 
+ This is how the menu of an office assistant looks :- 
+ 
+ ![image](https://github.com/adwayithks/hospital_management_project/assets/132866560/e464f348-3929-4ef6-90b3-e8adc0e01464)
+
