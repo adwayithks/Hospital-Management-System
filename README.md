@@ -110,7 +110,6 @@
 
 
 ![image](https://github.com/adwayithks/hospital_management_project/assets/132866560/2018f4ee-8a0e-4abf-8a82-38a9071ed7bc)
-![Untitled Diagram drawio](https://github.com/adwayithks/hospital_management_project/assets/132866560/3544b38c-ed7e-4e08-a86f-b615a10be3e8)
 
 
 
