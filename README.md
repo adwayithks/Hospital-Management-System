@@ -1,6 +1,9 @@
 # HOSPITAL MANAGEMENT SYSTEM
 
-### This is a project which can be deployed in hospitals for managing things like :-
+## Table of Contents
+- Why this Project 
+### Why this project?
+ This is a project which can be deployed in hospitals for managing things like :-
  1) Creating tokens
  2) Creating unique Patient-id for Patients
  3) Maintaining the queue to the doctor
