@@ -5,6 +5,7 @@
 - [Prerequisites](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#prerequisites)
 - [How to Install an run the Project](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#how-to-install-and-run-the-project)
 - [How to use the Software](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#how-to-use-the-software)
+- [How to use the Software](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#how-to-use-the-software)
   
 
 ---
@@ -100,6 +101,13 @@
         
        - If we chose "Generate report" option we should specify the pid and test to be done on the patients, this is kept like this for flexibility.
        - And if we chose "Send to doctor" option we should chose a position from 1 to 5, this is to select a patient from the onscreen display to send to the doctor.
+
+---
+
+### Directory Structure used in the program (Incase you want to know how the filesystem is organised)
+
+![image](https://github.com/adwayithks/hospital_management_project/assets/132866560/2018f4ee-8a0e-4abf-8a82-38a9071ed7bc)
+
 
          
 
