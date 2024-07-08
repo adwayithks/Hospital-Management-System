@@ -55,17 +55,18 @@
       - Create the details file of the patient
       - Create a patient id (pid) to a new patient visiting the hospital.
       - Add the patient to the doctor's queue.
-  
-  - This is how the menu of an office assistant looks :- 
+      
+    - This is how the menu of an office assistant looks :- 
  
        ![image](https://github.com/adwayithks/hospital_management_project/assets/132866560/e464f348-3929-4ef6-90b3-e8adc0e01464)
- 
-  - While creating a new token, it will ask us if the patient has a pid
-    - If yes we can just enter the patient id.
-    - Else we can say no, and it will ask us about some patient details, we can enter them and then it will give us a patient id, and also generate a token for the patient.
+
+    - While creating a new token, it will ask us if the patient has a pid
+      - If yes we can just enter the patient id.
+      - Else we can say no, and it will ask us about some patient details, we can enter them and then it will give us a patient id, and also generate a token for the patient.
 
   7) Now let's look at the next agent say the doctor in detail :
      - This is how the menu of doctor looks :-
+     - 
        ![image](https://github.com/adwayithks/hospital_management_project/assets/132866560/2924a25e-c0ac-457f-8a7e-5a55288c3df7)
 
        - The doctor can see the list of first few token holders directly in his view.
