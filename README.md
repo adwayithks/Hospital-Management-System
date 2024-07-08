@@ -1,7 +1,5 @@
 # HOSPITAL MANAGEMENT SYSTEM
 
---
-
 ## Table of Contents
 - [Why this Project](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#why-this-project)
 - [Prerequisites](https://github.com/adwayithks/hospital_management_project?tab=readme-ov-file#prerequisites)
